@@ -1,7 +1,14 @@
 # MSI Z590 Pro Wifi
-MSI Z590 Pro Wifi Rocket Lake Board with OpenCore 0.7.2 Nigthly Build (under Construction)
+MSI Z590 Pro Wifi Rocket Lake Board with OpenCore 0.7.2 Nigthly Build SMBIOS Imac20,2 (under Construction)
 
-Can be used for Catalina & Big Sur & Monterey
+In work with a hexa boot Oparating System;
+in test´s for:
+Windows 10 Pro
+Windows 11 Pro (Beta)
+Ubuntu 21.04
+MacOS Catalina
+MacOS Big Sur
+MacOS Monterey (Beta)
 
 <img src="/Pictures/MSIZ590ProWifi.png" alt="My cool Hack"/>
 
