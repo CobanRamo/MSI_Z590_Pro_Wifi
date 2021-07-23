@@ -10,7 +10,7 @@ The specs of the machine are:
 
 Specifications  | Details
 ------------- | -------------
-Processor  | Intel Core i9-10900k (10C / 10T, 3.7 / 5.3GHz, 20MB)
+Processor  | Intel Core i9-10900k (10C / 20T, 3.7 / 5.3GHz, 20MB)
 Graphics  | Integrated Intel® UHD-Grafik 630 (Headless or Deaktivated)
 Graphics  | Radeon RX 570 Red Devil 4 GB
 Monitor  | 34" WQHD (3440 x 1440 (21:9)) Dell Curved Monitor C3422WE
