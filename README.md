@@ -9,18 +9,6 @@ OS  | Ubuntu 21.04
 OS  | MacOS Catalina
 OS  | MacOS Big Sur
 OS  | MacOS Monterey (Beta)
-
-
-
-In work with a hexa boot Oparating System;
-in test´s for:
-Windows 10 Pro
-Windows 11 Pro (Beta)
-Ubuntu 21.04
-MacOS Catalina
-MacOS Big Sur
-MacOS Monterey (Beta)
-
 <img src="/Pictures/MSIZ590ProWifi.png" alt="My cool Hack"/>
 
 
