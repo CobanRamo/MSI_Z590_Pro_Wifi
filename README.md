@@ -4,9 +4,9 @@ OpenCore 0.7.2 Nigthly Build SMBIOS Imac20,2 (under Construction)
 
 In work with a hexa boot Oparating System  |°|°|°
 ------------- | ------------- | ------------- | -------------
-Windows  | Windows 10 Pro  | Windows 11 Pro (Beta)  |  
+Windows  | Windows 10 Pro  | Windows 11 Pro  |  
 Linux  | Ubuntu 21.04  |   |
-MacOS  | Catalina  | Big Sur  | Monterey (Beta)
+MacOS  | Catalina  | Big Sur  | Monterey
 
 <img src="/Pictures/MSIZ590ProWifi.png" alt="My cool Hack"/>
 
