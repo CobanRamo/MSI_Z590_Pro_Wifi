@@ -1,6 +1,6 @@
 # MSI Z590 Pro Wifi
 MSI Z590 Pro Wifi Rocket Lake Board with I9-10900k Comet lake CPU
-OpenCore 0.7.2 Nigthly Build SMBIOS Imac20,2 (under Construction)
+OpenCore 0.7.8 Nigthly Build SMBIOS Imac20,2 (under Construction)
 
 In work with a hexa boot Oparating System  |°|°|°
 ------------- | ------------- | ------------- | -------------
