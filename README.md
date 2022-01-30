@@ -1,15 +1,15 @@
 # MSI Z590 Pro Wifi
 MSI Z590 Pro Wifi Rocket Lake Board with I9-10900k Comet lake CPU
-OpenCore 0.7.8 Nigthly Build SMBIOS Imac20,2 (under Construction)
+OpenCore 0.7.8 Nigthly Build SMBIOS Imac20,2
+
 
 In work with a hexa boot Oparating System  |°|°|°
 ------------- | ------------- | ------------- | -------------
 Windows  | Windows 10 Pro  | Windows 11 Pro  |  
-Linux  | Ubuntu 21.04  |   |
+Linux  | Ubuntu 21.10  |   |
 MacOS  | Catalina  | Big Sur  | Monterey
-
+  
 <img src="/Pictures/MSIZ590ProWifi.png" alt="My cool Hack"/>
-
 
 The specs of the machine are:
 
@@ -29,4 +29,36 @@ PSU  | be quiet! Dark Power 12 750W 80PLUS Titanium
 WaterCooler  | be quiet! AiO Silent Loop 2 360mm
 Case  | be quiet! Dark Base 700 midi-tower
 
-(under Construction)
+
+
+
+
+
+<p align="center">
+  <img src="/Pictures/MSI_Z590 Pro Uefi.bmp" width="700" title="MSI Z590 Pro Wifi Uefi">
+  
+  <img src="/Pictures/OpenCore BootMenu1.png" width="700" title="OpenCore Menu">
+  
+  <img src="/Pictures/OpenCore BootMenu2.png" width="700" title="OpenCore Menu">
+  
+  <img src="/Pictures/About this mac.png" width="700" title="About this Mac">
+  
+  <img src="/Pictures/overview.png" width="700" title="Overview">
+  
+  <img src="/Pictures/Audio.png" width="700" title="Audio">
+  
+  <img src="/Pictures/Bluetooth.png" width="700" title="Bluetooth">
+  
+  <img src="/Pictures/Ethernet.png" width="700" title="Ethernet">
+  
+  <img src="/Pictures/Graphic.png" width="700" title="Graphic">
+  
+  <img src="/Pictures/Camera.png" width="700" title="Camera">
+  
+  <img src="/Pictures/PCI-Device.png" width="700" title="PCI-Device">
+  
+  <img src="/Pictures/USB Ports.png" width="700" title="USB Ports">
+  
+  <img src="/Pictures/Wifi.png" width="700" title="Wifi">  
+  
+</p>
