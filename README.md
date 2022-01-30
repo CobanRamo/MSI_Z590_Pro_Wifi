@@ -1,4 +1,4 @@
-# MSI Z590 Pro Wifi
+# MSI Z590 Pro Wifi &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Build instructions in the Hackintosh forum](https://www.hackintosh-forum.de/forum/thread/54459-msi-z590-pro-wifi-ein-alltags-eierlegende-wollmilchsau-bericht-bauanleitung/)
 MSI Z590 Pro Wifi Rocket Lake Board with I9-10900k Comet lake CPU
 OpenCore 0.7.8 Nigthly Build SMBIOS Imac20,2
 
@@ -8,6 +8,9 @@ In work with a hexa boot Oparating System  |°|°|°
 Windows  | Windows 10 Pro  | Windows 11 Pro  |  
 Linux  | Ubuntu 21.10  |   |
 MacOS  | Catalina  | Big Sur  | Monterey
+
+TPM 2.0 chip is enabled for Windows 11, does not affect MacOS versions.<br>
+SecureBoot is disabled but can be enabled and rolled out for OpenCore drivers if needed.
   
 <img src="/Pictures/MSIZ590ProWifi.png" alt="My cool Hack"/>
 
@@ -18,18 +21,16 @@ Specifications  | Details
 Processor  | Intel Core i9-10900k (10C / 20T, 3.7 / 5.3GHz, 20MB)
 Graphics  | Integrated Intel® UHD-Grafik 630 (Headless (0300C89B) or Deaktivated)
 Graphics  | Radeon RX 570 Red Devil 4 GB
-Monitor  | 34" WQHD (3440 x 1440 (21:9)) Dell Curved Monitor C3422WE
+[Monitor](https://www.dell.com/de-de/shop/geschwungener-dell-8636-cm-34-videokonferenzmonitor-c3422we/apd/210-aylw/monitore-und-monitorzubeh%C3%B6r#overview_section)  | 34" WQHD (3440 x 1440 (21:9)) Dell Curved Monitor C3422WE
 RAM  | TeamGroup T-Force Vulcan Z rot 32GB DDR4-3200
 Storage  | 1000GB WD Black SN750 Gaming 2280 PCIe 3.0x4 NVMe
 Sound Card  | Realtek Audio ALC897 (layout-ID 69 (45000000))
 Network Card  | Ethernet Controller I225-V (device-id F3158680)
-Network Card  | Wifi & Bluetooth with BCM94360NG
+Network Card  | Wifi & Bluetooth with BCM94360NG (original Intel has been replaced)
 Network Card  | USB-C 10/100/1000 LAN: from Dell C3422WE with KVM Switch
 PSU  | be quiet! Dark Power 12 750W 80PLUS Titanium
 WaterCooler  | be quiet! AiO Silent Loop 2 360mm
 Case  | be quiet! Dark Base 700 midi-tower
-
-
 
 
 
@@ -41,8 +42,15 @@ Case  | be quiet! Dark Base 700 midi-tower
   
   <img src="/Pictures/OpenCore BootMenu2.png" width="700" title="OpenCore Menu">
   
-  <img src="/Pictures/About this mac.png" width="700" title="About this Mac">
+  <p align="center">
+  <img src="/Pictures/Ubuntu 21.10.png" width="300" title="Ubuntu 21.10">
   
+  <p align="center">
+  <img src="/Pictures/Windows 10 Pro.PNG" width="300" title="Windows 10 Pro"> <img src="/Pictures/Windows 11 Pro.png" width="300" title="Windows 11 Pro">
+  
+  <img src="/Pictures/About this Mac Catalina.png" width="300" title="About this Mac"> <img src="/Pictures/About this Mac Big Sur.png" width="300" title="About this Mac"> <img src="/Pictures/About this Mac Monterey.png" width="300" title="About this Mac"> 
+  
+  <p align="center">
   <img src="/Pictures/overview.png" width="700" title="Overview">
   
   <img src="/Pictures/Audio.png" width="700" title="Audio">
@@ -60,5 +68,6 @@ Case  | be quiet! Dark Base 700 midi-tower
   <img src="/Pictures/USB Ports.png" width="700" title="USB Ports">
   
   <img src="/Pictures/Wifi.png" width="700" title="Wifi">  
+    
   
 </p>
