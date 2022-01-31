@@ -43,12 +43,12 @@ Case  | be quiet! Dark Base 700 midi-tower
   <img src="/Pictures/OpenCore BootMenu2.png" width="700" title="OpenCore Menu">
   
   <p align="center">
-  <img src="/Pictures/Ubuntu 21.10.png" width="300" title="Ubuntu 21.10">
+  <img src="/Pictures/Ubuntu 21.10.png" width="250" title="Ubuntu 21.10">
   
   <p align="center">
-  <img src="/Pictures/Windows 10 Pro.PNG" width="300" title="Windows 10 Pro"> <img src="/Pictures/Windows 11 Pro.png" width="300" title="Windows 11 Pro">
+  <img src="/Pictures/Windows 10 Pro.PNG" width="250" title="Windows 10 Pro"> <img src="/Pictures/Windows 11 Pro.png" width="250" title="Windows 11 Pro">
   
-  <img src="/Pictures/About this Mac Catalina.png" width="300" title="About this Mac"> <img src="/Pictures/About this Mac Big Sur.png" width="300" title="About this Mac"> <img src="/Pictures/About this Mac Monterey.png" width="300" title="About this Mac"> 
+  <img src="/Pictures/About this Mac Catalina.png" width="250" title="About this Mac"> <img src="/Pictures/About this Mac Big Sur.png" width="250" title="About this Mac"> <img src="/Pictures/About this Mac Monterey.png" width="250" title="About this Mac"> 
   
   <p align="center">
   <img src="/Pictures/overview.png" width="700" title="Overview">
