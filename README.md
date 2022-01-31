@@ -1,4 +1,5 @@
-# MSI Z590 Pro Wifi &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Build instructions in the Hackintosh forum](https://www.hackintosh-forum.de/forum/thread/54459-msi-z590-pro-wifi-ein-alltags-eierlegende-wollmilchsau-bericht-bauanleitung/)
+# MSI Z590 Pro Wifi &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+#### <p align="left"> [Build instructions in the Hackintosh forum](https://www.hackintosh-forum.de/forum/thread/54459-msi-z590-pro-wifi-ein-alltags-eierlegende-wollmilchsau-bericht-bauanleitung/)</p>
 Rocket Lake Board MSI Z590 Pro Wifi with Comet lake CPU I9-10900k <br>
 OpenCore 0.7.8 Nigthly Build SMBIOS Imac20,2
 
@@ -35,33 +36,20 @@ Case  | be quiet! Dark Base 700 midi-tower
 
 
 
+## <p align="center"> Pictures</p>
 
   <p align="center"><img src="/Pictures/MSI_Z590 Pro Uefi.bmp" width="700" title="MSI Z590 Pro Wifi Uefi"></p>
-  
   <p align="center"><img src="/Pictures/OpenCore BootMenu1.png" width="700" title="OpenCore Menu"></p>
-  
   <p align="center"><img src="/Pictures/OpenCore BootMenu2.png" width="700" title="OpenCore Menu"></p>
-  
   <p align="center"><img src="/Pictures/Ubuntu 21.10.png" width="250" title="Ubuntu 21.10"></p>
-  
   <p align="center"><img src="/Pictures/Windows 10 Pro.PNG" width="250" title="Windows 10 Pro"> <img src="/Pictures/Windows 11 Pro.png" width="250" title="Windows 11 Pro"></p>
-  
   <p align="center"><img src="/Pictures/About this Mac Catalina.png" width="250" title="About this Mac"> <img src="/Pictures/About this Mac Big Sur.png" width="250" title="About this Mac"> <img src="/Pictures/About this Mac Monterey.png" width="250" title="About this Mac"></p>
-  
   <p align="center"><img src="/Pictures/overview.png" width="700" title="Overview"></p>
-  
   <p align="center"><img src="/Pictures/Audio.png" width="700" title="Audio"></p>
-  
   <p align="center"><img src="/Pictures/Bluetooth.png" width="700" title="Bluetooth"></p>
-  
   <p align="center"><img src="/Pictures/Ethernet.png" width="700" title="Ethernet"></p>
-  
   <p align="center"><img src="/Pictures/Graphic.png" width="700" title="Graphic"></p>
-  
   <p align="center"><img src="/Pictures/Camera.png" width="700" title="Camera"></p>
-  
   <p align="center"><img src="/Pictures/PCI-Device.png" width="700" title="PCI-Device"></p>
-  
   <p align="center"><img src="/Pictures/USB Ports.png" width="700" title="USB Ports"></p>
-  
   <p align="center"><img src="/Pictures/Wifi.png" width="700" title="Wifi"></p>
