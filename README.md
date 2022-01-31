@@ -1,4 +1,4 @@
-# MSI Z590 Pro Wifi &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+# MSI Z590 Pro Wifi
 #### <p align="left"> [Build instructions in the Hackintosh forum](https://www.hackintosh-forum.de/forum/thread/54459-msi-z590-pro-wifi-ein-alltags-eierlegende-wollmilchsau-bericht-bauanleitung/)</p>
 Rocket Lake Board MSI Z590 Pro Wifi with Comet lake CPU I9-10900k <br>
 OpenCore 0.7.8 Nigthly Build SMBIOS Imac20,2
