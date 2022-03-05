@@ -42,7 +42,16 @@ Case  | be quiet! Dark Base 700 midi-tower
   <p align="center"><img src="/Pictures/MSI_Z590 Pro Uefi.bmp" width="700" title="MSI Z590 Pro Wifi Uefi"></p>
   <p align="center"><img src="/Pictures/OpenCore BootMenu1.png" width="700" title="OpenCore Menu"></p>
   <p align="center"><img src="/Pictures/OpenCore BootMenu2.png" width="700" title="OpenCore Menu"></p>
+  <p align="center">Grub menu only for ChromeOS, Ubuntu is launched directly from OpenCore</p>
+  <p align="center"><img src="/Pictures/Grub BootMenu1.png" width="700" title="Grub Menu only for ChromeOS"></p>
   <p align="center"><img src="/Pictures/Ubuntu 21.10.png" width="250" title="Ubuntu 21.10"></p>
+  
+  <p align="center"><img src="/Pictures/ChromeOS.png" width="150" title="ChromeOS Volteer"></p>
+  <p align="center"><img src="/Pictures/ChromeOS_Panel.png" width="150" title="ChromeOS Volteer"></p>
+  <p align="center"><img src="/Pictures/ChromeOS_Start.jpg" width="150" title="ChromeOS Volteer"></p>
+  <p align="center"><img src="/Pictures/ChromeOS_Task.png" width="150" title="ChromeOS Volteer"></p>
+  <p align="center"><img src="/Pictures/ChromeOS_Version.png" width="150" title="ChromeOS Volteer"></p>
+
   <p align="center"><img src="/Pictures/Windows 10 Pro.PNG" width="250" title="Windows 10 Pro"> <img src="/Pictures/Windows 11 Pro.png" width="250" title="Windows 11 Pro"></p>
   <p align="center"><img src="/Pictures/About this Mac Catalina.png" width="250" title="About this Mac"> <img src="/Pictures/About this Mac Big Sur.png" width="250" title="About this Mac"> <img src="/Pictures/About this Mac Monterey.png" width="250" title="About this Mac"></p>
   <p align="center"><img src="/Pictures/overview.png" width="700" title="Overview"></p>
