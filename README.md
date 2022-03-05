@@ -4,11 +4,12 @@ Rocket Lake Board MSI Z590 Pro Wifi with Comet lake CPU I9-10900k <br>
 OpenCore 0.7.8 Nigthly Build SMBIOS Imac20,2
 
 
-In work with a hexa boot Oparating System  |°|°|°
+In work with a multi boot Oparating System  |°|°|°
 ------------- | ------------- | ------------- | -------------
 Windows  | Windows 10 Pro  | Windows 11 Pro  |  
 Linux  | Ubuntu 21.10  |   |
 MacOS  | Catalina  | Big Sur  | Monterey
+ChromeOS  | ChromeOS Volteer  |   |
 
 TPM 2.0 chip is enabled for Windows 11, does not affect MacOS versions.<br>
 SecureBoot is disabled but can be enabled and rolled out for OpenCore drivers if needed.
