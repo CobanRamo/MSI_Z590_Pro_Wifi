@@ -9,7 +9,7 @@ In work with a multi boot Oparating System  |°|°|°
 Windows  | Windows 10 Pro  | Windows 11 Pro  |  
 Linux  | Ubuntu 21.10  |   |
 MacOS  | Catalina  | Big Sur  | Monterey
-ChromeOS  | ChromeOS Volteer  |   |
+ChromeOS  | ChromeOS "Volteer"  |   |
 
 *TPM 2.0 chip is enabled for Windows 11, does not affect MacOS versions.<br>
 SecureBoot is disabled but can be enabled and rolled out for OpenCore drivers if needed.
