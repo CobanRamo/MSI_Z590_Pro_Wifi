@@ -11,8 +11,10 @@ Linux  | Ubuntu 21.10  |   |
 MacOS  | Catalina  | Big Sur  | Monterey
 ChromeOS  | ChromeOS Volteer  |   |
 
-TPM 2.0 chip is enabled for Windows 11, does not affect MacOS versions.<br>
+*TPM 2.0 chip is enabled for Windows 11, does not affect MacOS versions.<br>
 SecureBoot is disabled but can be enabled and rolled out for OpenCore drivers if needed.
+
+*For ChromeOS the IGPU must be turned on, you can leave it on, has no effect on other operating systems
   
 <img src="/Pictures/MSIZ590ProWifi.png" alt="My cool Hack"/>
 
@@ -42,17 +44,16 @@ Case  | be quiet! Dark Base 700 midi-tower
   <p align="center"><img src="/Pictures/MSI_Z590 Pro Uefi.bmp" width="700" title="MSI Z590 Pro Wifi Uefi"></p>
   <p align="center"><img src="/Pictures/OpenCore BootMenu1.png" width="700" title="OpenCore Menu"></p>
   <p align="center"><img src="/Pictures/OpenCore BootMenu2.png" width="700" title="OpenCore Menu"></p>
-  <p align="center">Grub menu only for ChromeOS, Ubuntu is launched directly from OpenCore</p>
-  <p align="center"><img src="/Pictures/Grub BootMenu1.png" width="700" title="Grub Menu only for ChromeOS"></p>
-  <p align="center"><img src="/Pictures/Ubuntu 21.10.png" width="250" title="Ubuntu 21.10"></p>
   
-  <p align="center"><img src="/Pictures/ChromeOS.png" width="150" title="ChromeOS Volteer"></p>
-  <p align="center"><img src="/Pictures/ChromeOS_Panel.png" width="150" title="ChromeOS Volteer"></p>
-  <p align="center"><img src="/Pictures/ChromeOS_Start.jpg" width="150" title="ChromeOS Volteer"></p>
-  <p align="center"><img src="/Pictures/ChromeOS_Task.png" width="150" title="ChromeOS Volteer"></p>
-  <p align="center"><img src="/Pictures/ChromeOS_Version.png" width="150" title="ChromeOS Volteer"></p>
-
+  ##### <p align="center"> Grub menu only for ChromeOS, Ubuntu is launched directly from OpenCore</p>
+  <p align="center"><img src="/Pictures/Grub BootMenu1.png" width="250" title="Grub Menu only for ChromeOS"></p>
+  <p align="center"><img src="/Pictures/Ubuntu 21.10.png" width="350" title="Ubuntu 21.10"></p>
+<p align="center"> ChromeOS</p>
+  <p align="center"><img src="/Pictures/ChromeOS.png" width="350" title="ChromeOS Volteer"></p>
+  <p align="center"><img src="/Pictures/ChromeOS_Panel.png" width="150" title="ChromeOS Volteer"> <img src="/Pictures/ChromeOS_Start.jpg" width="150" title="ChromeOS Volteer"> <img src="/Pictures/ChromeOS_Task.png" width="150" title="ChromeOS Volteer"> <img src="/Pictures/ChromeOS_Version.png" width="150" title="ChromeOS Volteer"></p>
+<p align="center"> Windows 10 & 11 Pro</p>
   <p align="center"><img src="/Pictures/Windows 10 Pro.PNG" width="250" title="Windows 10 Pro"> <img src="/Pictures/Windows 11 Pro.png" width="250" title="Windows 11 Pro"></p>
+<p align="center"> MacOS Catalina, BigSur & Monterey</p>
   <p align="center"><img src="/Pictures/About this Mac Catalina.png" width="250" title="About this Mac"> <img src="/Pictures/About this Mac Big Sur.png" width="250" title="About this Mac"> <img src="/Pictures/About this Mac Monterey.png" width="250" title="About this Mac"></p>
   <p align="center"><img src="/Pictures/overview.png" width="700" title="Overview"></p>
   <p align="center"><img src="/Pictures/Audio.png" width="700" title="Audio"></p>
