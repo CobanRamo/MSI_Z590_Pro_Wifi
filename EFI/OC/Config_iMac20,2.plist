@@ -5,9 +5,9 @@
 	<key>#Information 1</key>
 	<string>This is a config.plist for "MSI Z590 Pro Wifi" CometLake by Cobanramo</string>
 	<key>#Information 2</key>
-	<string>OpenCore v0.7.8 Nightly Config for "Cometlake SMBIOS iMac20,2"</string>
+	<string>OpenCore v0.7.9 Release Config for "Cometlake SMBIOS iMac20,2"</string>
 	<key>#Information 3</key>
-	<string>OpenCore-0.7.8-RELEASE-commit d246944bb09f0189455f8174ca14e38909cfbe8d</string>
+	<string>OpenCore-0.7.9-RELEASE-</string>
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
@@ -62,14 +62,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Read the comment in dsl sample</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-SBUS-MCHC.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSDT-USB-Patch_Z590</string>
 				<key>Enabled</key>
 				<true/>
@@ -115,6 +107,45 @@
 		</array>
 		<key>Patch</key>
 		<array>
+			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
+				<key>Comment</key>
+				<string>change MC__ to MCHC</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				TUNfXw==
+				</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data>
+				</data>
+				<key>OemTableId</key>
+				<data>
+				</data>
+				<key>Replace</key>
+				<data>
+				TUNIQw==
+				</data>
+				<key>ReplaceMask</key>
+				<data>
+				</data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>
+				RFNEVA==
+				</data>
+			</dict>
 			<dict>
 				<key>Base</key>
 				<string></string>
@@ -253,22 +284,42 @@
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)</key>
 			<dict>
-				<key>#pci-aspm-default</key>
-				<data>
-				AwEAAA==
-				</data>
-				<key>#unfairgva</key>
+				<key>#@0,name</key>
+				<string>ATY,Orinoco</string>
+				<key>@0,AAPL,boot-display</key>
 				<data>
 				AQAAAA==
 				</data>
 				<key>AAPL,slot-name</key>
-				<string>Internal@0,1,0/0,0</string>
-				<key>device_type</key>
-				<string>VGA compatible controller</string>
+				<string>Slot-1</string>
+				<key>ATY,EFIVersion</key>
+				<string>01.01.183</string>
+				<key>ATY,EFIVersionB</key>
+				<string>113-C944A1XT-014</string>
+				<key>ATY,Rom#</key>
+				<string>113-2E3470U.S5X</string>
+				<key>PP,PP_BootupDisplayState</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>PP,PP_PowerPlayEnabled</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>builtin</key>
+				<integer>0</integer>
+				<key>hda-gfx</key>
+				<string>onboard-2</string>
 				<key>model</key>
-				<string>AMD Powercolor RX 570 Red Devil</string>
+				<string>AMD RX 570 Red Devil</string>
+				<key>shiki-id</key>
+				<string>Mac-7BA5B2D9E42DDD94</string>
 				<key>shikigva</key>
-				<integer>80</integer>
+				<integer>128</integer>
+				<key>unfairgva</key>
+				<data>
+				AQAAAA==
+				</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x1)</key>
 			<dict>
@@ -277,9 +328,17 @@
 				AwEAAA==
 				</data>
 				<key>AAPL,slot-name</key>
-				<string>Internal@0,1,0/0,1</string>
+				<string>Slot-1</string>
+				<key>builtin</key>
+				<integer>0</integer>
 				<key>device_type</key>
 				<string>Audio device</string>
+				<key>hda-gfx</key>
+				<string>onboard-2</string>
+				<key>layout-id</key>
+				<data>
+				AQAAAA==
+				</data>
 				<key>model</key>
 				<string>AMD High Definition Audio Device (HDMI)</string>
 			</dict>
@@ -580,8 +639,6 @@
 				<data>
 				AQAAAA==
 				</data>
-				<key>shikigva</key>
-				<integer>80</integer>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x8,0x0)</key>
 			<dict>
@@ -1322,6 +1379,8 @@
 			<integer>0</integer>
 			<key>DisplayLevel</key>
 			<integer>2147483650</integer>
+			<key>LogModules</key>
+			<string>*</string>
 			<key>SerialInit</key>
 			<false/>
 			<key>SysReport</key>
@@ -1330,7 +1389,62 @@
 			<integer>3</integer>
 		</dict>
 		<key>Entries</key>
-		<array/>
+		<array>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Auxiliary</key>
+				<false/>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>Flavour</key>
+				<string>Windows10:Windows</string>
+				<key>Name</key>
+				<string>Windows 10 Pro</string>
+				<key>Path</key>
+				<string>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)/NVMe(0x1,77-3F-31-46-4A-44-1B-00)/HD(1,GPT,9D4F51E0-D113-46E4-A44A-1C93DF8333F4,0x22,0x1F4000)/\EFI\Microsoft\Boot\bootmgfw.efi</string>
+				<key>TextMode</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Auxiliary</key>
+				<false/>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>Flavour</key>
+				<string>Ubuntu:Linux</string>
+				<key>Name</key>
+				<string>Ubuntu 21.04 (Hirsute Hippo)</string>
+				<key>Path</key>
+				<string>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)/NVMe(0x1,77-3F-31-46-4A-44-1B-00)/HD(1,GPT,9D4F51E0-D113-46E4-A44A-1C93DF8333F4,0x22,0x1F4000)/\EFI\ubuntu\shimx64.efi</string>
+				<key>TextMode</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Auxiliary</key>
+				<false/>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>Flavour</key>
+				<string>ChromeOS:Linux</string>
+				<key>Name</key>
+				<string>Chrome OS (Volteer)</string>
+				<key>Path</key>
+				<string>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)/NVMe(0x1,77-3F-31-46-4A-44-1B-00)/HD(1,GPT,9D4F51E0-D113-46E4-A44A-1C93DF8333F4,0x22,0x1F4000)/\EFI\ubuntu\shimx64.efi</string>
+				<key>TextMode</key>
+				<false/>
+			</dict>
+		</array>
 		<key>Security</key>
 		<dict>
 			<key>AllowNvramReset</key>
@@ -1362,7 +1476,7 @@
 			<key>ScanPolicy</key>
 			<integer>32513</integer>
 			<key>SecureBootModel</key>
-			<string>Disabled</string>
+			<string>Default</string>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>
@@ -1791,7 +1905,7 @@
 			<key>AdviseFeatures</key>
 			<true/>
 			<key>MLB</key>
-			<string>xxxxxxxxxxxxxx</string>
+			<string>M0000000000000001</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
@@ -1807,9 +1921,9 @@
 			<key>SystemProductName</key>
 			<string>iMac20,2</string>
 			<key>SystemSerialNumber</key>
-			<string>xxxxxxxxxxxxxx</string>
+			<string>W00000000001</string>
 			<key>SystemUUID</key>
-			<string>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</string>
+			<string>00000000-0000-0000-0000-000000000000</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
