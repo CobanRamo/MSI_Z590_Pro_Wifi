@@ -31,7 +31,7 @@
 			<key>IOClass</key>
 			<string>IONVMeController</string>
 			<key>IOPCIPrimaryMatch</key>
-			<string>0xa802144d 0xa804144d 0x500615b7</string>
+			<string>0xa802144d 0xa804144d 0x500615b7 0x501a15b7</string>
 			<key>IOProbeScore</key>
 			<integer>9000</integer>
 			<key>IOProviderClass</key>
